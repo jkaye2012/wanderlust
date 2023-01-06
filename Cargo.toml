@@ -13,5 +13,5 @@ dotenv = "0.15.0"
 google-signin = "0.3.0"
 serde = {version = "1.0.114", features = [ "derive" ] }
 sqlx = { version = "0.3", default-features = false, features = [ "json", "macros", "postgres", "runtime-tokio", "tls", "uuid" ] }
-tokio = { version = "1.8.4", features = ["macros"] }
+tokio = { version = "1.18.4", features = ["macros"] }
 warp = "0.2.3"
